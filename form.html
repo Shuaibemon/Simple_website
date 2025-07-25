@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pithaghar</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+
+        }
+    </style>
+    <link rel="stylesheet" href="Style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="simple_website.html">Home</a>
+                    <ul class="dropdown">
+                        <li>About</li>
+                        <li>Groups</li>
+                        <li>Contact</li>
+                    </ul>
+                </li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form action="">
+                <label for="Name">Your Name:
+                    <input id="Name" type="text" placeholder="Your Name">
+                </label>
+                <label for="Email">Your Email:
+                    <input id="Email" type="email" placeholder="Your email">
+                </label>
+                <label for="Phone">Your Phone:
+                    <input id="Phone" type="number" placeholder="Your Phone">
+                </label>
+
+                <fieldset>
+                    <legend>Pick One</legend>
+                    <label for="Chitoi Pitha">
+                        <input id="Chitoi Pitha" name="Pitha" type="radio">Chitoi Pitha
+                    </label>
+                    <label for="Vapa Pitha">
+                        <input id="Vapa Pitha" name="Pitha" type="radio">Vapa Pitha
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick One or more</legend>
+                    <label for="Shutki Vorta">
+                        <input id="Shutki Vorta"  type="checkbox">Shutki Vorta
+                    </label>
+                    <label for="Sharisha Vorta">
+                        <input id="Sharisha Vorta" type="checkbox">Sharisha Vorta
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <textarea name="" id=""></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

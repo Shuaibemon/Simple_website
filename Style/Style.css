@@ -1,8 +1,8 @@
-nav>ul>li{
-    display: inline;
-    text-decoration: none;
-}
+
 
 div{
     background-color: aqua;
+}
+footer{
+    text-align: center;
 }
